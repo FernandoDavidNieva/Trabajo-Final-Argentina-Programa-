@@ -1,14 +1,61 @@
- body {
-    background-color:#ce929d;
-    font-family: "Poppins", Arial, Helvetica, sans-serif;
- }
+body {
+background-color:#9c92ce;
+background: rgb(195,34,34);
+background: -moz-linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(253,45,227,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(253,45,227,1) 100%);
+background: linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(253,45,227,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c32222",endColorstr="#fd2de3",GradientType=1);
+font-family: "Poppins", Arial, Helvetica, sans-serif;
 
- header {
-    background-image: url('imagenes/encabezado.jpeg');
-    background-repeat: no-repeat;
+}
+
+header {
+   
     background-size: cover;
-    height: 400px;
+    height: 270px;
+    margin-bottom: 4px;
+    padding: 4px;
     
  }
 
 
+    .contenedor-slider
+    {
+    display: flex;
+    align-items:center;
+    gap: 40px;
+    max-width: 1200px;
+    padding: 0px 40px;
+    position: relative;
+    margin: auto;
+
+    
+    }
+    
+    .slider-izquierdo, .slider-derecho
+    {
+        width: 5%;
+      
+        width: 40px;
+        height: 40px;
+
+    }
+    
+    .slider-izquierdo img, .slider-derecho img
+    {
+        width: 100%;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .slider-screen
+    {
+        width: 90%; 
+        display: block;
+    }
+    
+    .slider-screen img
+    {
+        width: 100%;
+        display: block;
+    }
